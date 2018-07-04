@@ -1,0 +1,8 @@
+1.1
+FV(e1, e2) = FV(e1) U FV(e2)
+FV(let pair (x,y) = e1 in e2 end) = (FV(e2) \{x} \{y}) U FV(e1)
+
+1.3
+[e/x](e1, e2) = ([e/x]e1, [e/x]e2)
+[e/x](let pair (x,y) = e1 in e2 end) = let pair (x,y) = [e/x]e1 in e2 end
+where x,y do not belong to FV(e)

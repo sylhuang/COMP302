@@ -1,0 +1,36 @@
+1)
+  File "hw1-fixme.ml", line 35, characters 30-32:
+  Error: Syntax error
+
+  Fix: The function title is defined incorrectly.
+  Remove 'int'. Add the second varialble (n:int). Change 'n' to 'k'. Change 'of' to 'with'.
+
+2)
+  File "hw1-fixme.ml", line 36, characters 6-8:
+  Error: Syntax error
+
+  Fix: Change => to ->.
+
+3)
+  File "hw1-fixme.ml", line 37, characters 14-25:
+  Error: This expression has type int -> int
+         but an expression was expected of type int
+
+  Fix: Change (inc (n-1)) +1 to n.
+
+4)
+  File "hw1-fixme.ml", line 54, characters 4-6:
+  Error: Syntax error
+
+  Fix: Add '|' before each condition.
+
+5)
+  File "hw1-fixme.ml", line 55, characters 9-20:
+  Error: This expression has type float but an expression was expected of type
+         int
+
+  Fix: Change 1.0 to 1.
+
+Classifying errors:
+Syntax error: 1)2)4)
+Type error: 3)5)
